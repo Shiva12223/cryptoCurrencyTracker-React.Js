@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+
+.currency-list {
+  list-style-type: none;
+  width: 100%;
+}
+
+.currency-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  color: white;
+  gap: 10px;
+}
+.currency-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.currency-value-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 200px;
+  margin: 0px;
+  text-align: left;
+  
+}
